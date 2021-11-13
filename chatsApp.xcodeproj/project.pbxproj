@@ -14,6 +14,10 @@
 		964A13DF273F2CC300EBEF38 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A13DE273F2CC300EBEF38 /* MainTabView.swift */; };
 		964A13E1273F8B0700EBEF38 /* SettingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A13E0273F8B0700EBEF38 /* SettingHeaderView.swift */; };
 		964A13E4273F8FD800EBEF38 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A13E3273F8FD800EBEF38 /* SettingsCell.swift */; };
+		964A13E727401F5000EBEF38 /* SettingsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A13E627401F4F00EBEF38 /* SettingsCellViewModel.swift */; };
+		964A13E927402DD600EBEF38 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A13E827402DD600EBEF38 /* EditProfileView.swift */; };
+		964A13EC2740442600EBEF38 /* StatusSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A13EB2740442600EBEF38 /* StatusSelectorView.swift */; };
+		964A13EE2740490700EBEF38 /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A13ED2740490700EBEF38 /* StatusViewModel.swift */; };
 		96F244C4273DF68400445874 /* chatsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F244C3273DF68400445874 /* chatsAppApp.swift */; };
 		96F244C6273DF68400445874 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F244C5273DF68400445874 /* ContentView.swift */; };
 		96F244C8273DF68C00445874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F244C7273DF68C00445874 /* Assets.xcassets */; };
@@ -51,6 +55,10 @@
 		964A13DE273F2CC300EBEF38 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		964A13E0273F8B0700EBEF38 /* SettingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingHeaderView.swift; sourceTree = "<group>"; };
 		964A13E3273F8FD800EBEF38 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		964A13E627401F4F00EBEF38 /* SettingsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsCellViewModel.swift; path = chatsApp/View/Settings/SettingsCellViewModel.swift; sourceTree = SOURCE_ROOT; };
+		964A13E827402DD600EBEF38 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		964A13EB2740442600EBEF38 /* StatusSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusSelectorView.swift; sourceTree = "<group>"; };
+		964A13ED2740490700EBEF38 /* StatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusViewModel.swift; path = chatsApp/View/Settings/StatusViewModel.swift; sourceTree = SOURCE_ROOT; };
 		96F244C0273DF68400445874 /* chatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F244C3273DF68400445874 /* chatsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatsAppApp.swift; sourceTree = "<group>"; };
 		96F244C5273DF68400445874 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +121,8 @@
 				964A13D7273F2B3800EBEF38 /* SettingsView.swift */,
 				964A13E0273F8B0700EBEF38 /* SettingHeaderView.swift */,
 				964A13E3273F8FD800EBEF38 /* SettingsCell.swift */,
+				964A13E827402DD600EBEF38 /* EditProfileView.swift */,
+				964A13EB2740442600EBEF38 /* StatusSelectorView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -212,6 +222,8 @@
 		96F244EF273E07B800445874 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				964A13E627401F4F00EBEF38 /* SettingsCellViewModel.swift */,
+				964A13ED2740490700EBEF38 /* StatusViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -375,8 +387,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964A13EC2740442600EBEF38 /* StatusSelectorView.swift in Sources */,
+				964A13E927402DD600EBEF38 /* EditProfileView.swift in Sources */,
 				96F244F4273E0A4400445874 /* LoginView.swift in Sources */,
 				964A13D8273F2B3800EBEF38 /* SettingsView.swift in Sources */,
+				964A13E727401F5000EBEF38 /* SettingsCellViewModel.swift in Sources */,
 				964A13E4273F8FD800EBEF38 /* SettingsCell.swift in Sources */,
 				964A13D6273F2B0E00EBEF38 /* ChannelsView.swift in Sources */,
 				964A13E1273F8B0700EBEF38 /* SettingHeaderView.swift in Sources */,
@@ -386,6 +401,7 @@
 				96F244C4273DF68400445874 /* chatsAppApp.swift in Sources */,
 				96F244F6273E0A6300445874 /* RegistrationView.swift in Sources */,
 				964A13DA273F2B7100EBEF38 /* ChatsView.swift in Sources */,
+				964A13EE2740490700EBEF38 /* StatusViewModel.swift in Sources */,
 				96F244F8273ED24C00445874 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

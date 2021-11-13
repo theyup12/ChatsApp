@@ -13,25 +13,12 @@ struct SettingsView: View {
             Color(.systemGroupedBackground).ignoresSafeArea()
             
             VStack(spacing: 32){
-                HStack{
-                    Image(systemName:"person").resizable()
-                        .scaledToFill()
-                        .frame(width: 64, height: 64)
-                        .clipShape(Circle())
-                        .padding(.leading)
-                    VStack(alignment: .leading, spacing: 4){
-                        Text("Eddie Brock")
-                            .font(.system(size: 18))
-                        
-                        Text("Available").foregroundColor(.gray).font(.system(size:14))
-                    }
-                    Spacer()
-                }
-                .frame(height: 80).background(Color.white)
-                
+                NavigationLink(
+                    destination: EditProfileView(),
+                    label: {SettingsHeaderView()})
                 VStack(spacing: 1){
-                    ForEach((0 ... 2), id: \.self){ _ in
-                        SettingsCell()
+                    ForEach(SettingsCellViewModel.allCases, id: \.self){ viewModel in
+                        SettingsCell(viewModel: viewModel)
                     }
                 }
                 Button(action: {print("handle log out here..")}, label: {
