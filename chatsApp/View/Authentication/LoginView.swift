@@ -18,7 +18,7 @@ struct LoginView: View {
                     Text("Hello.").font(.largeTitle).bold()
                     Text("Welcome back").bold().foregroundColor(.blue).font(.largeTitle)
                         
-                    VStack(spacing: 20){
+                    VStack(spacing: 40){
                         CustomTextField(imageName: "envelope", placeholderText: "Email", isSecureField: false, text: $email)
                         
                         CustomTextField(imageName: "lock", placeholderText: "Password", isSecureField: true, text: $password)
@@ -52,7 +52,7 @@ struct LoginView: View {
                     .shadow(color: .gray, radius: 10, x: 0.0, y: 0.0)
                 Spacer()
                 
-                NavigationLink(destination: RegistrationView(), label: {
+                NavigationLink(destination: RegistrationView().navigationBarBackButtonHidden(true), label: {
                     HStack{
                         Text("Don't have an account?").font(.system(size: 14))
                         Text("Sign Up").font(.system(size: 14, weight: .semibold))
