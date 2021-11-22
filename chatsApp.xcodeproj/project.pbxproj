@@ -18,6 +18,7 @@
 		964A13E927402DD600EBEF38 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A13E827402DD600EBEF38 /* EditProfileView.swift */; };
 		964A13EC2740442600EBEF38 /* StatusSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A13EB2740442600EBEF38 /* StatusSelectorView.swift */; };
 		964A13EE2740490700EBEF38 /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A13ED2740490700EBEF38 /* StatusViewModel.swift */; };
+		964A13F027422F1F00EBEF38 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964A13EF27422F1F00EBEF38 /* ImagePicker.swift */; };
 		96F244C4273DF68400445874 /* chatsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F244C3273DF68400445874 /* chatsAppApp.swift */; };
 		96F244C6273DF68400445874 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F244C5273DF68400445874 /* ContentView.swift */; };
 		96F244C8273DF68C00445874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F244C7273DF68C00445874 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		964A13E827402DD600EBEF38 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		964A13EB2740442600EBEF38 /* StatusSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusSelectorView.swift; sourceTree = "<group>"; };
 		964A13ED2740490700EBEF38 /* StatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusViewModel.swift; path = chatsApp/View/Settings/StatusViewModel.swift; sourceTree = SOURCE_ROOT; };
+		964A13EF27422F1F00EBEF38 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		96F244C0273DF68400445874 /* chatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F244C3273DF68400445874 /* chatsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatsAppApp.swift; sourceTree = "<group>"; };
 		96F244C5273DF68400445874 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				96F244F7273ED24C00445874 /* CustomTextField.swift */,
+				964A13EF27422F1F00EBEF38 /* ImagePicker.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				964A13EC2740442600EBEF38 /* StatusSelectorView.swift in Sources */,
 				964A13E927402DD600EBEF38 /* EditProfileView.swift in Sources */,
 				96F244F4273E0A4400445874 /* LoginView.swift in Sources */,
+				964A13F027422F1F00EBEF38 /* ImagePicker.swift in Sources */,
 				964A13D8273F2B3800EBEF38 /* SettingsView.swift in Sources */,
 				964A13E727401F5000EBEF38 /* SettingsCellViewModel.swift in Sources */,
 				964A13E4273F8FD800EBEF38 /* SettingsCell.swift in Sources */,

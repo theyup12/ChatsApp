@@ -9,6 +9,9 @@ import SwiftUI
 
 struct EditProfileView: View {
     @State private var fullname = "Andy"
+    @State private var showImagePicker = false
+    @State private var selectedImage: UIImage?
+    @State private var profileImage:Image?
     var body: some View {
         ZStack{
             Color(.systemGroupedBackground).ignoresSafeArea()
@@ -17,11 +20,20 @@ struct EditProfileView: View {
                 VStack{
                     HStack{
                         VStack{
-                            Image("account_img").resizable()
-                                .scaledToFit()
-                                .frame(width: 64, height:64)
-                                .clipShape(Circle())
-                            Button(action: {print("change profile")}, label:{Text("Edit")})
+                            if let profileImage = profileImage{
+                                profileImage.resizable()
+                                    .scaledToFit()
+                                    .frame(width: 64, height:64)
+                                    .clipShape(Circle())
+                            }else{
+                                    Image("account_img").resizable()
+                                        .scaledToFit()
+                                        .frame(width: 64, height:64)
+                                        .clipShape(Circle())
+                            }
+                            Button(action: {showImagePicker.toggle()}, label:{Text("Edit")
+                            })
+                                .sheet(isPresented: $showImagePicker,onDismiss: loadImage){ ImagePicker(image: $selectedImage)}
                         }.padding(.top)
                         Text("Enter your name or change your profile photo").font(.system(size:16)).foregroundColor(.gray).padding([.bottom, .horizontal])
                     }
@@ -51,6 +63,11 @@ struct EditProfileView: View {
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarTitle("Edit Profile")
+    }
+    func loadImage(){
+        guard let selectedImage = selectedImage else {return}
+        profileImage = Image(uiImage: selectedImage)
+
     }
 }
 
