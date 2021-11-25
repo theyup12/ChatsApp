@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ChatView: View {
     @State private var messageText = ""
+    @ObservedObject var viewModel = ChatViewModel()
     var body: some View {
         VStack {
             //messages
             ScrollView{
                 VStack(alignment: .leading, spacing: 12){
-                    ForEach((0 ... 10), id: \.self){ _ in
-                       MessageView(isFromCurrentUser: false)
+                    ForEach(viewModel.messages){ message in
+                        MessageView(isFromCurrentUser: message.isFromCurrentUser, messageText: message.messageText)
                     }
                 }
             }
@@ -26,7 +27,7 @@ struct ChatView: View {
     }
     
     func sendMessage(){
-        print("Send Message \(messageText)")
+        viewModel.sendMessage(messageText)
         messageText = ""
     }
 }
