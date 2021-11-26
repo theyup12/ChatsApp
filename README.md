@@ -13,3 +13,4 @@ Chat application built with SwiftUI
 
 - [Clone](https://github.blog/2017-06-05-clone-in-xcode/): Clone the source code to the xcode
 - After all this, go ahead and run the project and test it out on your desired iPhone simulator shown below:
+![image](https://user-images.githubusercontent.com/46938075/143535094-6986273e-43ff-4cc6-b3ca-c28690fa5123.png)
