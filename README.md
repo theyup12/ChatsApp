@@ -2,13 +2,14 @@
 Chat application built with SwiftUI
 
 ## Requirements
-
+- Macbook
 - Xcode 10.2.1
 - iOS 10.2
 
 ## Getting Started
-* [**Xcode**](https://apps.apple.com/us/app/xcode/id497799835) - The easiest way to get Xcode is from the [App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12), but you can also download it from [developer.apple.com](https://developer.apple.com/) if you have an Apple ID registered with an Apple Developer account.
+* [**Xcode**](https://apps.apple.com/us/app/xcode/id497799835) - Contributor can get Xcode from the [App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) in the Macbook, but you can also download the Xcode from [developer.apple.com](https://developer.apple.com/) if you have an Apple Developer account.
 
 ## Setup
 
-[Clone](https://github.blog/2017-06-05-clone-in-xcode/): Clone the source code to the xcode
+- [Clone](https://github.blog/2017-06-05-clone-in-xcode/): Clone the source code to the xcode
+- After all this, go ahead and run the project and test it out on your desired iPhone simulator shown below:
