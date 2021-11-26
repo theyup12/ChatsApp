@@ -16,5 +16,6 @@ Chat application built with SwiftUI
 - After all this, go ahead and run the project and test it out on your desired iPhone simulator shown below:
 ![image](https://user-images.githubusercontent.com/46938075/143535331-05ee4d03-6e0d-483a-ada1-9cc9ae8a6878.png)
 - In addition, you can choose the iPhone emulator that works best for you.
+
 ![image](https://user-images.githubusercontent.com/46938075/143536832-69bef1f5-c3f9-41f8-bf3c-49fbde507390.png)
 
