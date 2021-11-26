@@ -18,7 +18,23 @@ Chat application built with SwiftUI
 - Another way to clone the project:
   * Start the Xcode 
   * Choose the option "Clone an existing project".
-  * Copy and paste the repository URL and start cloning to the selected folder
+  * Copy and paste the repository URL and start cloning to the selected folder.
 - After all this, go ahead and run the project and test it out on your desired iPhone simulator shown below:
 ![image](https://user-images.githubusercontent.com/46938075/143535331-05ee4d03-6e0d-483a-ada1-9cc9ae8a6878.png)
 
+## How to Contrubute 
+If you want to contribute, you are welcome:
+- Choose one of the opening issues.
+- Clone or Fork the project.
+- Start running and implement the project.
+
+## Create a Pull Request
+There are two ways to create new pull request:
+1. Use Xcode's own features.
+- choose the "Source Control".
+- create the pull request with title and description of the issue.
+- Publish the pull request.
+2. Create pull request with forked repository
+- Select pull request in the main repository
+- create new pull request.
+- [Compare](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) the project from fork.
