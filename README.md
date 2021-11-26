@@ -7,6 +7,8 @@ Chat application built with SwiftUI
 - iOS 10.2
 
 ## Getting Started
-* [**Xcode**](https://itunes.apple.com/us/app/xcode/id497799835) - The easiest way to get Xcode is from the [App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12), but you can also download it from [developer.apple.com](https://developer.apple.com/) if you have an Apple ID registered with an Apple Developer account.
+* [**Xcode**](https://apps.apple.com/us/app/xcode/id497799835) - The easiest way to get Xcode is from the [App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12), but you can also download it from [developer.apple.com](https://developer.apple.com/) if you have an Apple ID registered with an Apple Developer account.
 
 ## Setup
+
+[Clone](https://github.blog/2017-06-05-clone-in-xcode/): Clone the source code to the xcode
