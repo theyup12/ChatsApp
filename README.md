@@ -38,6 +38,6 @@ There are two ways to create new pull request:
 - Select pull request in the main repository
 - create new pull request.
 - [Compare](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) the project from fork.
-
+- Review by the owner before merge in to the main project.
 ## Coding Standard
 - [Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
