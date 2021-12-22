@@ -6,9 +6,12 @@
 //
 
 import SwiftUI
-
+import Firebase
 @main
 struct chatsAppApp: App {
+    init(){
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
             MainTabView()
