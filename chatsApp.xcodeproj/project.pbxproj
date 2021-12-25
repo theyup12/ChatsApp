@@ -89,7 +89,7 @@
 		967AA63F27500325000FE17F /* CustomInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputView.swift; sourceTree = "<group>"; };
 		967AA641275007D4000FE17F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = chatsApp/View/Chats/Message.swift; sourceTree = SOURCE_ROOT; };
 		967AA643275008BF000FE17F /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatViewModel.swift; path = chatsApp/View/Chats/ChatViewModel.swift; sourceTree = SOURCE_ROOT; };
-		96888EF92773AFD100C8ECB5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		96888EF92773AFD100C8ECB5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../ChatsApp/chatsApp/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		96B8C9772773BDDB008889CD /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		96B8C98B2773EC1C008889CD /* ProfilePhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfilePhotoSelectorView.swift; path = ../../../../ChatsApp/chatsApp/View/Authentication/ProfilePhotoSelectorView.swift; sourceTree = "<group>"; };
 		96B8C98D2774E232008889CD /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
