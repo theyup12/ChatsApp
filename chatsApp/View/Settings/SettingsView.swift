@@ -21,7 +21,7 @@ struct SettingsView: View {
                         SettingsCell(viewModel: viewModel)
                     }
                 }
-                Button(action: {print("handle log out here..")}, label: {
+                Button(action: {AuthViewModel.shared.signout()}, label: {
                     Text("Log Out").foregroundColor(.red).font(.system(size:16, weight: .semibold)).frame(width: UIScreen.main.bounds.width, height: 50).background(Color.white)
                 })
                 
